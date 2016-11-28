@@ -1,0 +1,5 @@
+n, m = input().split()
+arr = input().split()
+A = set(input().split())
+B = set(input().split())
+print(sum([0 + 1 if x in A else 0 - 1 if x in B else 0 + 0 for x in arr]))
